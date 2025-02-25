@@ -14,6 +14,17 @@
 	/* background-color: bisque; */
 }
 
+@media (max-width: 400px) {
+	.App-header {
+
+		flex-direction: column;
+	}
+	.LeftCl, .RightCl {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 .LeftCl {
 	/* background-color: aqua; */
 	height: 100%;
