@@ -2,20 +2,18 @@
 	display: none; /* Nasconde il bottone di default */
 }
 
-@media (max-width: 768px) {
-	.hamburger {
-		display: block; /* Mostra il bottone solo su mobile */
-		position: absolute;
-		top: 15px;
-		left: 15px;
-		background: none;
-		border: none;
-		font-size: 30px;
-		cursor: pointer;
-		z-index: 20;
+@media (max-width: 600px) {
+	/* Altri elementi ridimensionati per il mobile */
+	.LeftCl {
+		width: 100%;
+		align-items: center;
+		text-align: center;
+	}
+	.RightCl {
+		width: 0%;
 	}
 
-	/* Navbar Mobile */
+	/* Rende visibile la navbar mobile */
 	.sections {
 		position: fixed;
 		top: 0;
@@ -33,23 +31,26 @@
 		z-index: 10;
 	}
 
-	/* Quando il menu è aperto */
 	.sections.open {
 		left: 0;
+	}
+
+	.hamburger {
+		display: block; /* Mostra il bottone dell'hamburger su mobile */
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		background: none;
+		border: none;
+		font-size: 30px;
+		cursor: pointer;
+		z-index: 20;
 	}
 
 	.sections li {
 		padding: 10px;
 		font-size: 20px;
 		width: 100%;
-		text-align: center;
-	}
-
-	/* Altri elementi ridimensionati per il mobile */
-	.LeftCl,
-	.RightCl {
-		width: 90%;
-		align-items: center;
 		text-align: center;
 	}
 
