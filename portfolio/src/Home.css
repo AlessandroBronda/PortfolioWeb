@@ -16,10 +16,10 @@
 
 @media (max-width: 400px) {
 	.App-header {
-
 		flex-direction: column;
 	}
-	.LeftCl, .RightCl {
+	.LeftCl,
+	.RightCl {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -41,9 +41,11 @@
 }
 
 .RightCl {
-	/* background-color: rgb(57, 110, 110); */
-	height: 100%;
+	/* 	background-color: rgb(57, 110, 110); */
+	height: 108%;
 	width: 50%;
+	display: flex;
+	flex-direction: column;
 }
 
 .profilePic {
@@ -52,6 +54,8 @@
 	height: 350px;
 	border-radius: 50%;
 	object-fit: cover;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	animation: subtleMove 10s infinite alternate ease-in-out;
 }
 
 .bio {
@@ -62,4 +66,90 @@
 	padding: 10px;
 	border-radius: 20px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	animation: subtleMove2 20s infinite ease-in-out;
+}
+
+@keyframes subtleMove {
+	0% {
+		transform: translate(0, 0);
+	}
+	50% {
+		transform: translate(7px, 7px);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes subtleMove2 {
+	0% {
+		transform: translate(0, 0);
+	}
+	50% {
+		transform: translate(7px, 7px);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+.sections {
+	color: rgb(46, 46, 46);
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+	border-bottom: none; /* Remove the bottom border */
+	justify-content: space-between;
+	width: 100%;
+}
+
+.sections li {
+	padding-bottom: 0px;
+	transition: all 0.5s;
+	border-bottom: 2px solid transparent;
+	flex: 1;
+	text-align: center;
+}
+
+.sections li:hover {
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+.cMaster {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-flow: row wrap;
+}
+
+.c1 {
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 47%;
+	height: 30%;
+	margin-top: 3%;
+	border-radius: 10px;
+	margin-right: 30px;
+	margin-left: 10px;
+}
+
+.c2 {
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 47%;
+	height: 30%;
+	margin-top: 3%;
+	border-radius: 10px;
+}
+
+.c3 {
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 100%;
+	height: 60%;
+	border-radius: 10px;
+	margin-left: 10px;
+	order: 1;
 }

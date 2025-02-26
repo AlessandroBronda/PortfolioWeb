@@ -1,0 +1,85 @@
+.hamburger {
+	display: none; /* Nasconde il bottone di default */
+}
+
+@media (max-width: 768px) {
+	.hamburger {
+		display: block; /* Mostra il bottone solo su mobile */
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		background: none;
+		border: none;
+		font-size: 30px;
+		cursor: pointer;
+		z-index: 20;
+	}
+
+	/* Navbar Mobile */
+	.sections {
+		position: fixed;
+		top: 0;
+		left: -100%;
+		width: 80%;
+		height: 100%;
+		background: rgba(255, 255, 255, 0.95);
+		box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		transition: left 0.3s ease-in-out;
+		z-index: 10;
+	}
+
+	/* Quando il menu è aperto */
+	.sections.open {
+		left: 0;
+	}
+
+	.sections li {
+		padding: 10px;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+	}
+
+	/* Altri elementi ridimensionati per il mobile */
+	.LeftCl,
+	.RightCl {
+		width: 90%;
+		align-items: center;
+		text-align: center;
+	}
+
+	.Name {
+		font-size: 40px;
+		margin: 0;
+	}
+
+	.profilePic {
+		margin: 20px 0;
+		width: 200px;
+		height: 200px;
+	}
+
+	.bio {
+		width: 90%;
+		margin: 0;
+	}
+
+	.cMaster {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.c1,
+	.c2,
+	.c3 {
+		width: 90%;
+		height: auto;
+		margin: 10px 0;
+	}
+}
