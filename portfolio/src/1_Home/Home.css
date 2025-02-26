@@ -91,7 +91,7 @@
 	padding: 0px;
 	margin: 0px;
 	cursor: pointer;
-	border-bottom: none; /* Remove the bottom border */
+	border-bottom: none; 
 	justify-content: space-between;
 	width: 100%;
 }
@@ -100,7 +100,7 @@
 	padding-bottom: 0px;
 	transition: all 0.5s;
 	border-bottom: 2px solid transparent;
-	flex: 1;
+	/* flex: 1; */
 	text-align: center;
 }
 
