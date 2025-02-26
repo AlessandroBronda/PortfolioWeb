@@ -51,11 +51,10 @@
 	margin-left: 150px;
 	width: 50%;
 	font-size: large;
-	color: rgb(60, 60, 60);
+	color: rgb(70, 70, 70);
 	padding: 10px;
 	border-radius: 20px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	animation: subtleMove2 20s infinite ease-in-out;
 }
 
 @keyframes subtleMove {
@@ -64,18 +63,6 @@
 	}
 	50% {
 		transform: translate(10px, 10px);
-	}
-	100% {
-		transform: translate(0, 0);
-	}
-}
-
-@keyframes subtleMove2 {
-	0% {
-		transform: translate(0, 0);
-	}
-	50% {
-		transform: translate(7px, 7px);
 	}
 	100% {
 		transform: translate(0, 0);
@@ -91,7 +78,7 @@
 	padding: 0px;
 	margin: 0px;
 	cursor: pointer;
-	border-bottom: none; 
+	border-bottom: none;
 	justify-content: space-between;
 	width: 100%;
 }

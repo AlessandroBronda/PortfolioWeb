@@ -16,14 +16,10 @@ function App() {
 
 				<div className="LeftCl">
 					<img className="profilePic" src={semoyImage} alt="Semoy" />
-					<h1 className="Name">
-						Bronda <br /> Alessandro
-					</h1>
+					<h1 className="Name">Alessandro Bronda</h1>
 					<p className="bio">
-						<i>
-							"Mi occupo di grafica, 3D e programmazione. Unisco estetica e tecnologia con
-							l'intenzione di creare esperienze di impatto"
-						</i>
+						Mi occupo di grafica, 3D e programmazione. Unisco estetica e tecnologia con
+						l'intenzione di creare esperienze di impatto
 					</p>
 				</div>
 

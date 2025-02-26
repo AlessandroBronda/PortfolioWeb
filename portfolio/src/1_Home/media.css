@@ -4,14 +4,21 @@
 }
 
 @media (max-width: 600px) {
+	.App {
+		justify-content: flex-start;
+	}
+	.App-header {
+		justify-content: flex-start;
+	}
 	/* Altri elementi ridimensionati per il mobile */
 	.LeftCl {
 		width: 100%;
-		align-items: center;
-		text-align: center;
+		align-items: flex-start;
+		text-align: left;
+		gap: 0;
 	}
 	.RightCl {
-		width: 0%;
+		width: 100%;
 	}
 
 	/* Rende visibile la navbar mobile */
@@ -38,10 +45,11 @@
 	}
 
 	.hamburger {
-		display: block; /* Mostra il bottone dell'hamburger su mobile */
+		all: unset; /* Resetta tutti gli stili predefiniti */
+		display: block;
 		position: absolute;
-		top: 0px;
-		left: 0px;
+		top: 15px;
+		left: 15px;
 		background: none;
 		border: none;
 		font-size: 30px;
@@ -86,19 +94,30 @@
 	}
 
 	.Name {
-		font-size: 40px;
-		margin: 0;
+		font-size: 30px;
+		margin-left: 40px;
+		margin-top: 30px;
+		margin-bottom: 0px;
+		white-space: nowrap !important;
 	}
 
 	.profilePic {
-		margin: 20px 0;
-		width: 200px;
-		height: 200px;
+		margin-left: 35px;
+		margin-top: 20px;
+		width: 175px;
+		height: 175px;
+		animation: none;
 	}
 
 	.bio {
+		padding: 0px;
 		width: 90%;
-		margin: 0;
+		margin-left: 40px;
+		margin-top: 35px; /* Adjusted to be closer to the top object */
+		border-radius: 0;
+		box-shadow: none;
+		font-weight: 400; /* Made the font bolder */
+		font-size: 18px;
 	}
 
 	.cMaster {
