@@ -39,7 +39,7 @@ function App() {
 					</ul>
 
 					<div className="cMaster">
-						<div className="c1"></div>
+						<div className="c1">Contatti</div>
 						<div className="c2"></div>
 						<div className="c3"></div>
 					</div>

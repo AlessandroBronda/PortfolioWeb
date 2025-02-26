@@ -14,7 +14,6 @@
 	/* background-color: bisque; */
 }
 
-
 .LeftCl {
 	/* background-color: aqua; */
 	height: 100%;
@@ -64,7 +63,7 @@
 		transform: translate(0, 0);
 	}
 	50% {
-		transform: translate(7px, 7px);
+		transform: translate(10px, 10px);
 	}
 	100% {
 		transform: translate(0, 0);
@@ -118,7 +117,7 @@
 }
 
 .c1 {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #fd3db5;
 	width: 47%;
 	height: 30%;
 	margin-top: 3%;

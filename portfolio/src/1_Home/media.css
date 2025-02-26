@@ -21,14 +21,14 @@
 		left: -100%;
 		width: 80%;
 		height: 100%;
-		background: rgba(255, 255, 255, 0.5);
+		background: rgba(255, 255, 255, 0.4);
 		box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
 		backdrop-filter: blur(10px);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 20px;
+		gap: 10px;
 		transition: left 0.3s ease-in-out;
 		z-index: 10;
 	}
@@ -50,12 +50,20 @@
 	}
 
 	.sections li {
-		padding: 20px;
+		padding: 10px;
 		padding-right: 0px;
 		padding-left: 0px;
 		font-size: 20px;
 		width: 100%;
+
 		text-align: center;
+	}
+
+	.sections li:hover {
+		color: black;
+		border-bottom: none;
+		scale: 130%;
+		transition: scale 0.3s ease-in-out;
 	}
 
 	.Name {
