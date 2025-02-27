@@ -18,8 +18,9 @@ function App() {
 					<img className="profilePic" src={semoyImage} alt="Semoy" />
 					<h1 className="Name">Alessandro Bronda</h1>
 					<p className="bio">
-						Mi occupo di grafica, 3D e programmazione. Unisco estetica e tecnologia con
-						l'intenzione di creare esperienze di impatto
+						Ciao, sono un freelance e mi occupo di 3D, grafica e programmazione. Mi piace
+						unire le mie diverse competenze per dare vita a progetti creativi, d'impatto,
+						funzionali e sopratutto: belli.
 					</p>
 				</div>
 
@@ -35,7 +36,7 @@ function App() {
 					</ul>
 
 					<div className="cMaster">
-						<div className="c1">Contatti</div>
+						<div className="c1"></div>
 						<div className="c2"></div>
 						<div className="c3"></div>
 					</div>

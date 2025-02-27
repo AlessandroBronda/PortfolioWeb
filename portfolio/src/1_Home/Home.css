@@ -11,11 +11,9 @@
 	width: 80%;
 	height: 80%;
 	display: flex;
-	/* background-color: bisque; */
 }
 
 .LeftCl {
-	/* background-color: aqua; */
 	height: 100%;
 	width: 50%;
 	display: flex;
@@ -30,7 +28,6 @@
 }
 
 .RightCl {
-	/* 	background-color: rgb(57, 110, 110); */
 	height: 108%;
 	width: 50%;
 	display: flex;
@@ -51,7 +48,7 @@
 	margin-left: 150px;
 	width: 50%;
 	font-size: large;
-	color: rgb(70, 70, 70);
+	color: rgb(160, 160, 160);
 	padding: 10px;
 	border-radius: 20px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
