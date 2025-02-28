@@ -44,6 +44,7 @@
 		backdrop-filter: blur(10px);
 		display: flex;
 		flex-direction: column !important;
+		gap: 20px;
 		justify-content: center;
 		align-items: center;
 		transition: left 0.3s ease-in-out;
@@ -60,7 +61,7 @@
 		display: block;
 		position: absolute;
 		top: 15px;
-		left: 15px;
+		left: 20px;
 		background: none;
 		border: none;
 		font-size: 30px;
@@ -88,16 +89,17 @@
 		content: "";
 		position: absolute;
 		top: 0;
-		right: 100%;
-		bottom: 0;
 		left: 0;
+		right: 0;
+		bottom: 0;
 		background-color: black;
-		transition: right 0.3s ease-in-out;
+		transform: translateX(-100%);
+		transition: transform 0.3s ease-in-out;
 		z-index: -1;
 	}
 
 	.sections li:hover::before {
-		right: 0;
+		transform: translateX(0);
 	}
 
 	.sections li:hover {
