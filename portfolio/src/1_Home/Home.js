@@ -19,8 +19,8 @@ function App() {
 					<h1 className="Name">Alessandro Bronda</h1>
 					<p className="bio">
 						Ciao, sono un freelance e mi occupo di 3D, grafica e programmazione. Mi piace
-						unire le mie diverse competenze per dare vita a progetti creativi, d'impatto,
-						funzionali e sopratutto: belli.
+						unire diverse discipline per dare vita a progetti creativi, d'impatto,
+						funzionali ma sopratutto belli.
 					</p>
 				</div>
 
@@ -28,11 +28,11 @@ function App() {
 					<ul className={`sections ${menuOpen ? "open" : ""}`}>
 						<li>HOME</li>
 						<li>BIO</li>
-						<li>PROGETTI3D</li>
+						<li>PROGETTI 3D</li>
 						<li>ANIMAZIONE</li>
 						<li>GRAFICA</li>
 						<li>PROGRAMMAZIONE</li>
-						<li>WEBDESIGN</li>
+						<li>WEB DESIGN</li>
 					</ul>
 
 					<div className="cMaster">
