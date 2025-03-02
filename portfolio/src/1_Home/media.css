@@ -3,9 +3,9 @@
 	color: rgb(129, 129, 129);
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1450px) {
 	.App {
-		height: 100vh;
+		height: 150vh;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -14,6 +14,7 @@
 		width: 100%;
 		margin-left: 3rem;
 		margin-right: 3rem;
+		margin-top: 30px;
 	}
 	.App-header {
 		width: 90%;
@@ -27,7 +28,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: start;
-		gap: 20px;
+		gap: 40px;
 	}
 
 	.RightCl {
@@ -38,7 +39,7 @@
 	.profilePic {
 		margin: auto;
 		margin-left: 35px;
-		margin-top: 50px;
+		margin-top: 70px;
 		margin-bottom: 0px;
 		width: 300px;
 		height: 300px;
@@ -64,23 +65,36 @@
 
 	.c1 {
 		width: 90%;
-		height: 45%;
+		height: 170%;
 		margin: auto;
 		margin-top: 50px;
 	}
 	.c2 {
 		width: 90%;
-		height: 45%;
+		height: 170%;
 		margin: auto;
 		margin-top: 50px;
 	}
 
 	.c3 {
-		display: none;
+		width: 86%;
+		height: 50%;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 90px;
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
+	.App {
+		height: 170vh;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 800px) {
 	.App {
 		height: 1000px;
 		width: 100%;
@@ -96,16 +110,18 @@
 	}
 	/* Altri elementi ridimensionati per il mobile */
 	.LeftCl {
-		margin-top: 50px;
-		height: 40%;
+		margin-top: 60px;
+		height: 35%;
 		width: 100%;
 		align-items: flex-start;
 		text-align: left;
 		gap: 0;
+		
 	}
 	.RightCl {
 		height: 50%;
 		width: 100%;
+		
 	}
 
 	/* Rende visibile la navbar mobile */
@@ -234,4 +250,6 @@
 		background-color: rgba(0, 0, 0, 0.178);
 		border-radius: 20px;
 	}
+
+	
 }
