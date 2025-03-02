@@ -5,7 +5,7 @@
 
 @media (max-width: 1450px) {
 	.App {
-		height: 150vh;
+		height: 100vh;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -85,16 +85,16 @@
 	}
 }
 
-@media (max-width: 1100px) {
+@media (orientation: landscape) and (max-width: 1200px) {
 	.App {
-		height: 170vh;
+		height: 150vh;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px), {
 	.App {
 		height: 1000px;
 		width: 100%;
@@ -116,12 +116,10 @@
 		align-items: flex-start;
 		text-align: left;
 		gap: 0;
-		
 	}
 	.RightCl {
 		height: 50%;
 		width: 100%;
-		
 	}
 
 	/* Rende visibile la navbar mobile */
@@ -250,6 +248,4 @@
 		background-color: rgba(0, 0, 0, 0.178);
 		border-radius: 20px;
 	}
-
-	
 }
